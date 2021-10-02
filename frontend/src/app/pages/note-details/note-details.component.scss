@@ -1,0 +1,15 @@
+.form-container {
+  width: 500px;
+  margin: auto;
+
+  margin-block-start: 50px;
+}
+
+input,
+textarea {
+
+  &.ng-invalid.ng-touched {
+    border-color: red;
+    box-shadow: none;
+  }
+}
